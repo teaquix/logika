@@ -11,11 +11,18 @@
 /* Стилі пиши тут :) */
 h1 {
     color: red;
+    text-align: center;
+}
+.donut-png {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 </style>
 <body>
 <h1>Світ пончиків</h1>
-<p> Запашні, свіжі, на будь-який смак і колір в Ужгороді! </p>
-<img class="donut-png" src="/uploads/2023/02/donut.png"/>
+<div class="donut-png">
+<img src="/uploads/2023/02/donut.png"/>
+</div>
 </body>
 </html>
